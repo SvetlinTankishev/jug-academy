@@ -1,0 +1,2 @@
+module bg.jug.academy {
+}
