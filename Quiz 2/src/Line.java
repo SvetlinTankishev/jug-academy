@@ -27,7 +27,10 @@ public class Line {
     }
 
     @Override
-    public String toString() {
-        return "[(" + start.getX() + "," + start.getY() + "),(" + end.getX() + "," + end.getY() + ")]";
+    public java.lang.String toString() {
+        return "Line{" +
+                "start=" + start +
+                ", end=" + end +
+                '}';
     }
 }

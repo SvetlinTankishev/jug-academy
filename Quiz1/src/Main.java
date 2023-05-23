@@ -67,4 +67,7 @@ public class Main {
         int firstOneIndex = binaryString.indexOf('1');
         System.out.println(binaryString.substring(firstOneIndex));
     }
+
+
+    
 }
