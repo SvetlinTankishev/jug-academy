@@ -24,10 +24,10 @@ public class DatePatternTest {
         // Option c
         Pattern patternC = Pattern.compile(":^[0-9]{4}.[0-9]{2}.[0-9]{2}.*");
         Matcher matcherC = patternC.matcher(date);
-        System.out.println("Option c:");
-        System.out.println("Date: " + date);
+         System.out.println("Option c:");
+           System.out.println("Date: " + date);
         System.out.println("Matched? " + matcherC.matches());
-        System.out.println();
+          System.out.println();
 
         // Option d
         Pattern patternD = Pattern.compile("^[0-9]{4}\\.[0-9]{2}\\.[0-9]{2}.*");

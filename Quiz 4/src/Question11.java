@@ -3,7 +3,7 @@
 */
 
 
- public class Question11 {
+ /*public class Question11 {
  public static java.util.stream.IntStream numbers(java.util.List<String> items) {
   return items.stream()
           .filter(__tester__::isValidInteger)
@@ -19,3 +19,4 @@
  }
 
 }
+*/
