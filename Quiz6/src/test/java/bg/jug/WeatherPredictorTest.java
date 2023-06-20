@@ -11,10 +11,8 @@ class WeatherPredictorTest {
         WeatherPredictor weatherPredictor = new WeatherPredictor();
         weatherPredictor.setWeatherService(weatherService);
 
-        org.mockito.Mockito.when(
-                weatherService.predict(
-                        org.mockito.Mockito.anyInt())).thenAnswer(
-                invocation -> invocation.getArgument(0));
+        org.mockito.Mockito.when(weatherService.predict(org.mockito.Mockito.anyInt())).
+                thenAnswer(invocation -> invocation.getArgument(0));
 
         Integer result = weatherPredictor.predict(degrees);
 

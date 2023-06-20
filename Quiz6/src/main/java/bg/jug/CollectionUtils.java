@@ -27,10 +27,10 @@ import java.util.List;
 class CollectionUtils {
 
     public static boolean search(List<Integer> numbers, Integer number) {
-        numbers = Arrays.asList(1, 2, 3, 4, 5);
-        number = 3;
-        boolean result = CollectionUtils.search(numbers, number);
-        return result;
+        if (numbers == null || number == null) {
+            throw new RuntimeException("Input list or number is null.");
+        }
+        return numbers.contains(number);
     }
 
 }
