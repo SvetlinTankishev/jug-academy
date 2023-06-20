@@ -4,7 +4,6 @@
 
  Note: use fully qualified names, i.e.:
 
-
  @org.junit.jupiter.api.extension.ExtendWith
  @org.junit.jupiter.api.Test
  @org.mockito.Mock
@@ -26,8 +25,7 @@ class WeatherPredictor {
 
 
     public Integer predict(Integer degrees) {
-        Integer result = weatherService.predict(degrees);
-        return result;
+        return weatherService.predict(degrees);
     }
 
 
